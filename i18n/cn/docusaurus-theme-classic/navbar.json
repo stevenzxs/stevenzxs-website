@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "stevenzxs",
+    "description": "博主"
+  },
+  "logo.alt": {
+    "message": "stevenzxs Logo",
+    "description": "博客logo"
+  },
+  "item.label.Tutorial": {
+    "message": "往期文章",
+    "description": "往期文章导航"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "博客导航"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "GitHub 导航"
+  }
+}

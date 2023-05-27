@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '史蒂芬·钟',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'cn',
+    locales: ['cn'],
   },
 
   presets: [
@@ -64,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'stevenzxs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'stevenzxs Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,11 +74,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '往期文章',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/stevenzxs/stevenzxs-website',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,16 +88,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
+                label: '往期文章',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
                 label: 'Stack Overflow',
@@ -114,10 +114,10 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} stevenzxs, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
